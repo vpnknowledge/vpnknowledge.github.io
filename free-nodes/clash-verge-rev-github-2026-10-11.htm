@@ -153,14 +153,14 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 的协议插件与加密方式如何搭配使用？</h5></div>
-    <div class="panel-body">
-        协议插件可增强抗封锁能力，加密方式确保数据安全。合理搭配可模拟正常流量特征，同时保障传输安全，有助于在封锁严格环境下维持节点可用性和稳定连接。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 与 Hiddify Next 有什么区别？</h5></div>
     <div class="panel-body">
         Nekobox 更注重轻量化和本地化，界面简洁，支持多协议基础功能；而 Hiddify Next 则整合了订阅转换、测速、规则分流等高级功能，更适合技术用户使用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Matsuri 节点排序如何提高视频播放流畅性？</h5></div>
+    <div class="panel-body">
+        Matsuri 会测速节点延迟，并结合策略组自动选择延迟低、稳定性高的节点处理视频流量。减少缓冲和卡顿，保证在线视频播放顺畅，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>WinXray 如何保证视频流畅播放？</h5></div>
@@ -168,19 +168,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         WinXray 会结合延迟检测和策略组选择最佳节点转发视频流量。通过自动切换低延迟节点，可保证在线视频播放顺畅，减少卡顿和缓冲，提高整体体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 与 Clash 有什么关系？</h5></div>
+    <div class="panel-heading"><h5>VMess 的多路复用在短连接环境下有什么优势？</h5></div>
     <div class="panel-body">
-        Surfboard 是一款基于 Clash 核心的 iOS 应用，专为苹果用户设计。它通过友好的界面实现分流管理、节点切换和延迟测试等功能。与 Clash 类似，Surfboard 也支持订阅更新和多种代理协议，兼容性非常好。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的多路复用功能有哪些好处？</h5></div>
-    <div class="panel-body">
-        多路复用允许多个短连接共享同一 QUIC 通道，减少握手延迟和资源消耗。在高并发或频繁短连接场景下，能显著提升吞吐量和稳定性，尤其适合游戏或即时通讯应用。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 的节点订阅更新是否可定时执行？</h5></div>
-    <div class="panel-body">
-        是的。Nekoray 可以设置订阅更新频率，如每天或每小时。程序会自动下载更新节点并替换旧节点，保证用户始终使用最新线路。<hr />    </div>
+        多路复用可将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和延迟。适合高频短连接的应用场景，如即时通讯、游戏或网页频繁请求，提升整体响应速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS + Reality 与 Trojan 在性能上差异大吗？</h5></div>
@@ -188,14 +178,24 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         两者性能相近。VLESS + Reality 伪装更自然，适合强封锁地区；Trojan 则依托标准 TLS 实现高速连接。选择取决于服务器支持与环境稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess 的多路复用在短连接环境下有什么优势？</h5></div>
+    <div class="panel-heading"><h5>SSR 的协议插件与加密方式如何搭配使用？</h5></div>
     <div class="panel-body">
-        多路复用可将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和延迟。适合高频短连接的应用场景，如即时通讯、游戏或网页频繁请求，提升整体响应速度。<hr />    </div>
+        协议插件可增强抗封锁能力，加密方式确保数据安全。合理搭配可模拟正常流量特征，同时保障传输安全，有助于在封锁严格环境下维持节点可用性和稳定连接。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Matsuri 节点排序如何提高视频播放流畅性？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 的节点订阅更新是否可定时执行？</h5></div>
     <div class="panel-body">
-        Matsuri 会测速节点延迟，并结合策略组自动选择延迟低、稳定性高的节点处理视频流量。减少缓冲和卡顿，保证在线视频播放顺畅，提高整体网络体验。<hr />    </div>
+        是的。Nekoray 可以设置订阅更新频率，如每天或每小时。程序会自动下载更新节点并替换旧节点，保证用户始终使用最新线路。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 的多路复用功能有哪些好处？</h5></div>
+    <div class="panel-body">
+        多路复用允许多个短连接共享同一 QUIC 通道，减少握手延迟和资源消耗。在高并发或频繁短连接场景下，能显著提升吞吐量和稳定性，尤其适合游戏或即时通讯应用。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 与 Clash 有什么关系？</h5></div>
+    <div class="panel-body">
+        Surfboard 是一款基于 Clash 核心的 iOS 应用，专为苹果用户设计。它通过友好的界面实现分流管理、节点切换和延迟测试等功能。与 Clash 类似，Surfboard 也支持订阅更新和多种代理协议，兼容性非常好。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>V2Ray 的路由规则如何实现国内直连？</h5></div>
@@ -248,16 +248,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-9-14-clash-node-daily-updates.htm" title="VPN Knowledge免费节点 | 9月14日20.9M/S|免费Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点节点推荐">VPN Knowledge免费节点 | 9月14日20.9M/S|免费Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-14-clash-stash-node.htm" title="VPN Knowledge免费节点 | 10月14日21.2M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐">VPN Knowledge免费节点 | 10月14日21.2M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-20-clash-verge-rev-node-github.htm" title="VPN Knowledge免费节点 | 9月20日20.5M/S|免费Clash节点/SSR节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐">VPN Knowledge免费节点 | 9月20日20.5M/S|免费Clash节点/SSR节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-10-clash-node-daily-updates.htm" title="VPN Knowledge免费节点 | 10月10日19.8M/S|免费V2ray节点/Trojan节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点节点推荐">VPN Knowledge免费节点 | 10月10日19.8M/S|免费V2ray节点/Trojan节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-2-clash-meta-github.htm" title="VPN Knowledge免费节点 | 9月2日19.8M/S|免费Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐">VPN Knowledge免费节点 | 9月2日19.8M/S|免费Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-4-clash-verge-rev-node-github.htm" title="VPN Knowledge免费节点 | 9月4日19.8M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点节点推荐">VPN Knowledge免费节点 | 9月4日19.8M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-8-clash-node-daily-updates.htm" title="VPN Knowledge免费节点 | 9月8日21M/S|免费SSR节点/Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点/Clash节点节点推荐">VPN Knowledge免费节点 | 9月8日21M/S|免费SSR节点/Shadowrocket节点/Trojan节点/V2ray节点/Singbox节点/Clash节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-12-clash-verge-rev-node-share.htm" title="VPN Knowledge免费节点 | 9月12日18.4M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点/Trojan节点节点推荐">VPN Knowledge免费节点 | 9月12日18.4M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点/Trojan节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-9-7.htm" title="VPN Knowledge免费节点 | 9月7日22.4M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点/Trojan节点节点推荐">VPN Knowledge免费节点 | 9月7日22.4M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点/Trojan节点节点推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-22-clash-verge-rev-node-share.htm" title="VPN Knowledge免费节点 | 9月22日23M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点/Trojan节点节点推荐">VPN Knowledge免费节点 | 9月22日23M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点/Trojan节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-node-github-2026-10-19.htm" title="VPN Knowledge免费节点 | 10月19日20.3M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点节点推荐">VPN Knowledge免费节点 | 10月19日20.3M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/Clash节点/V2ray节点/SSR节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-stash-2026-9-23.htm" title="VPN Knowledge免费节点 | 9月23日22.3M/S|免费V2ray节点/Trojan节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点节点推荐">VPN Knowledge免费节点 | 9月23日22.3M/S|免费V2ray节点/Trojan节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-18-clash-verge-rev-node-github.htm" title="VPN Knowledge免费节点 | 9月18日19.1M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐">VPN Knowledge免费节点 | 9月18日19.1M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/SSR节点/V2ray节点/Clash节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-6-clash-verge-rev-node-share.htm" title="VPN Knowledge免费节点 | 10月6日22.7M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点节点推荐">VPN Knowledge免费节点 | 10月6日22.7M/S|免费SSR节点/Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/V2ray节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-9-29.htm" title="VPN Knowledge免费节点 | 9月29日22.1M/S|免费Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点节点推荐">VPN Knowledge免费节点 | 9月29日22.1M/S|免费Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-10-clash-stash-node.htm" title="VPN Knowledge免费节点 | 9月10日20.9M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点节点推荐">VPN Knowledge免费节点 | 9月10日20.9M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-node-2026-10-3.htm" title="VPN Knowledge免费节点 | 10月3日23M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐">VPN Knowledge免费节点 | 10月3日23M/S|免费SSR节点/V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-windows-2026-9-15.htm" title="VPN Knowledge免费节点 | 9月15日21.2M/S|免费Singbox节点/SSR节点/Clash节点/Shadowrocket节点/V2ray节点/Trojan节点节点推荐">VPN Knowledge免费节点 | 9月15日21.2M/S|免费Singbox节点/SSR节点/Clash节点/Shadowrocket节点/V2ray节点/Trojan节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-18-free-node-subscribe.htm" title="VPN Knowledge免费节点 | 10月18日19.6M/S|免费SSR节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点节点推荐">VPN Knowledge免费节点 | 10月18日19.6M/S|免费SSR节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点节点推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-node-2026-9-21.htm" title="VPN Knowledge免费节点 | 9月21日18M/S|免费Clash节点/V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点节点推荐">VPN Knowledge免费节点 | 9月21日18M/S|免费Clash节点/V2ray节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点节点推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -269,7 +269,7 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
+                <h4><span class="badge" style="float: right;">20</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
